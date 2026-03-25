@@ -17,16 +17,13 @@ Python 3.9 o superior (opcional para ejecución sin contenedor).
 Pasos para ejecución (Docker)
 Clonar el repositorio:
 
-Bash
 git clone https://github.com/aletrinak/galicia.git
 cd galicia
 Construir la imagen:
 
-Bash
 docker build -t api-galicia:latest .
 Correr el contenedor:
 
-Bash
 docker run -d -p 8000:8000 --name api-galicia api-galicia:latest
 Acceder a la API:
 
